@@ -31,6 +31,9 @@ import preprocessor as p
 from textblob import TextBlob
 import nltk
 from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
+
+nltk.download('punkt')
 
 data_labeling = pd.read_csv('pemilu_2024_ok.csv', index_col=0)
 
