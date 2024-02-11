@@ -1,3 +1,6 @@
+!pip install seaborn
+
+
 import pandas as pd
 import re
 import seaborn as sns
