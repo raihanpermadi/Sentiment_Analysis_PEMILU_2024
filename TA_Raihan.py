@@ -1,3 +1,4 @@
+pip.Streamlit
 pip install seaborn
 
 
