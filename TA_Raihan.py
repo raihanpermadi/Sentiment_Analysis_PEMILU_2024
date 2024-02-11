@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import streamlit as st
+import maplotlib.pyplot as plt
 
 #page
 st.set_page_config(
@@ -25,7 +26,6 @@ with col_1:
         st.dataframe(data1)
 
 #for col_2_1
-import preprocessor as p
 from textblob import TextBlob
 import nltk
 from nltk.stem import PorterStemmer
