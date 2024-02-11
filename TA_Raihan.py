@@ -1,6 +1,5 @@
 import pandas as pd
 import re
-import seaborn as sns
 import matplotlib.pyplot as plt
 import streamlit as st
 
