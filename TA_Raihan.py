@@ -25,7 +25,6 @@ with col_1:
         st.dataframe(data1)
 
 #for col_2_1
-import nltk
 from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 
