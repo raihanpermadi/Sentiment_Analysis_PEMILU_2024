@@ -1,4 +1,4 @@
-pip.seaborn
+pip install Seaborn
 
 
 import pandas as pd
