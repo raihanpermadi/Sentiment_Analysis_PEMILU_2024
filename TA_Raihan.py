@@ -1,5 +1,5 @@
 pip.Streamlit
-pip install seaborn
+pip.seaborn
 
 
 import pandas as pd
