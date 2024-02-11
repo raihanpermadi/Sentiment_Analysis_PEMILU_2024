@@ -1,5 +1,7 @@
 import pandas as pd
 import re
+import seaborn as sns
+import matplotlib.pyplot as plt
 import streamlit as st
 
 #page
@@ -25,6 +27,12 @@ with col_1:
         st.dataframe(data1)
 
 #for col_2_1
+import preprocessor as p
+from textblob import TextBlob
+import nltk
+from nltk.stem import PorterStemmer
+from nltk.tokenize import word_tokenize
+
 data_labeling = pd.read_csv('pemilu_2024_ok.csv', index_col=0)
 
 data_tweet = list(data_labeling['full_text_eng'])
