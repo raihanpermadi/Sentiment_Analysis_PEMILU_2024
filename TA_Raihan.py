@@ -25,8 +25,6 @@ with col_1:
         st.dataframe(data1)
 
 #for col_2_1
-nltk.download('punkt')
-
 data_labeling = pd.read_csv('pemilu_2024_ok.csv', index_col=0)
 
 data_tweet = list(data_labeling['full_text_eng'])
