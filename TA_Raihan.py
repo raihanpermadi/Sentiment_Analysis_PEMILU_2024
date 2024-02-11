@@ -25,9 +25,6 @@ with col_1:
         st.dataframe(data1)
 
 #for col_2_1
-from nltk.stem import PorterStemmer
-from nltk.tokenize import word_tokenize
-
 nltk.download('punkt')
 
 data_labeling = pd.read_csv('pemilu_2024_ok.csv', index_col=0)
