@@ -1,8 +1,3 @@
-streamlit==1.30.0
-pandas==2.2.0
-seaborn==0.13.2
-matplotlib==3.8.2
-
 import pandas as pd
 import re
 import seaborn as sns
