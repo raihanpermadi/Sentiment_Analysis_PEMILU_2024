@@ -1,7 +1,6 @@
 import pandas as pd
 import re
 import streamlit as st
-import maplotlib.pyplot as plt
 
 #page
 st.set_page_config(
