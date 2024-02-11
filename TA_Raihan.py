@@ -1,5 +1,3 @@
-pip install python
-
 import pandas as pd
 import re
 import seaborn as sns
